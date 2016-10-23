@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:application="http://java.sun.com/xml/ns/javaee/application_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" id="Application_ID" version="5">
+  <display-name>ColorApp</display-name>
+  <module>
+    <web>
+      <web-uri>04_RedApp.war</web-uri>
+      <context-root>04_RedApp</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>02_GreenApp.war</web-uri>
+      <context-root>02_GreenApp</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>03_OrangeApp.war</web-uri>
+      <context-root>03_OrangeApp</context-root>
+    </web>
+  </module>
+</application>

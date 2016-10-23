@@ -1,0 +1,21 @@
+
+<web-app>
+	  <context-param>
+	  	<param-name>con1</param-name>
+	  	<param-value>hello to all</param-value>
+	  </context-param>
+	  
+	  <servlet>
+	  	<servlet-name>hello</servlet-name>
+	  	<jsp-file>/test2.jsp</jsp-file>
+	  		<init-param>
+	  			<param-name>con2</param-name>
+	  			<param-value>Driver</param-value>
+	  		</init-param>
+	  </servlet>
+	  
+	  <servlet-mapping>
+	  	<servlet-name>hello</servlet-name>
+	  	<url-pattern>/abc</url-pattern>
+	  </servlet-mapping>
+</web-app>
