@@ -1,0 +1,7 @@
+package com.vinod;
+
+import javax.servlet.http.HttpSessionBindingListener;
+
+public class Person implements HttpSessionBindingListener{
+
+}

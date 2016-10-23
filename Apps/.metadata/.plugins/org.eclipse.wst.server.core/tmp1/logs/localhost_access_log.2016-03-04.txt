@@ -1,0 +1,9 @@
+127.0.0.1 - - [04/Mar/2016:14:53:32 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:14:53:32 +0530] "GET /app03-simpleHTML/login.html HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:14:53:50 +0530] "POST /app03-simpleHTML/test1.html HTTP/1.1" 200 296
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:14:53:56 +0530] "GET /app03-simpleHTML/hello HTTP/1.1" 200 84
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:14:54:13 +0530] "GET /app03-simpleHTML/login.html HTTP/1.1" 200 376
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:14:54:14 +0530] "POST /app03-simpleHTML/login HTTP/1.1" 200 14
+127.0.0.1 - - [04/Mar/2016:15:40:11 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:15:40:11 +0530] "GET /app03-simpleHTML/login.html HTTP/1.1" 200 375
+0:0:0:0:0:0:0:1 - - [04/Mar/2016:15:40:21 +0530] "GET /app03-simpleHTML/login?userName=sjstym&password=dtmty HTTP/1.1" 405 1065

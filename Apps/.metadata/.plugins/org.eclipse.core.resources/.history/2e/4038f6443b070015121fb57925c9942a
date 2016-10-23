@@ -1,0 +1,21 @@
+package com.vinod;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+/**
+ * Servlet implementation class servlet01
+ */
+@WebServlet("/servlet01")
+public class servlet01 extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public servlet01() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+}

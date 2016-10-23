@@ -1,0 +1,1 @@
+alter table qafarm_tickets ADD Category varchar(50) Assignee varchar(50) Priority varchar(50)

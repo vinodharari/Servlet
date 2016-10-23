@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;HelloServlet.java&apos; to &apos;app09-lifeCycle/src/com.lara&apos;&#x0D;&#x0A;- Original project: &apos;app02-helloWorld&apos;&#x0D;&#x0A;- Destination element: &apos;app09-lifeCycle/src/com.lara&apos;&#x0D;&#x0A;- Original element: &apos;com.vinod.HelloServlet.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=app09-lifeCycle/src&lt;com.lara" element1="/src&lt;com.vinod{HelloServlet.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1423616280014" units="1" version="1.0"/>
+</session>

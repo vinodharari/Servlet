@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="app02-helloWorld/src"/>
+	<classpathentry kind="src" path="app03-simpleHTML/src"/>
+	<classpathentry kind="src" path="app04-HTML-get-post/src"/>
+	<classpathentry kind="src" path="app05-formRegistration/src"/>
+	<classpathentry kind="src" path="app06-jsValidation/src"/>
+	<classpathentry kind="src" path="app07-external-js(incomplete)/src"/>
+	<classpathentry kind="src" path="app08-queryString/src"/>
+	<classpathentry kind="src" path="app09-lifeCycle/src"/>
+	<classpathentry kind="src" path="app11-reqDispatcher/src"/>
+	<classpathentry kind="src" path="app12-AJAX/src"/>
+	<classpathentry kind="src" path="app13-Sessions_Cookies/src"/>
+	<classpathentry kind="src" path="app13-Sessions_Hidden_form/src"/>
+	<classpathentry kind="src" path="app13-Sessions_URL_encoding/src"/>
+	<classpathentry kind="src" path="app14-ContainerScopes/src"/>
+	<classpathentry kind="src" path="app15-Listeners/src"/>
+	<classpathentry kind="src" path="app16-Filters/src"/>
+	<classpathentry kind="src" path="app17-Browser/src"/>
+	<classpathentry kind="src" path="app20-Wrappers/src"/>
+	<classpathentry kind="src" path="app21-Security/src"/>
+	<classpathentry kind="src" path="app22-Dynamic3.0/src"/>
+	<classpathentry kind="src" path="Copy of app13-Sessions_Cookies/src"/>
+	<classpathentry kind="src" path="FirstServletProject/FirstServletProject/src"/>
+	<classpathentry kind="src" path="java-json-app/src"/>
+	<classpathentry kind="src" path="javaTpoint/src"/>
+	<classpathentry kind="src" path="myApe1-loginDb/src"/>
+	<classpathentry kind="src" path="Proto/src"/>
+	<classpathentry kind="src" path="SimpleServletProject/src"/>
+	<classpathentry kind="src" path="TutorialsServlet/src"/>
+	<classpathentry kind="src" path="vigneshData/src"/>
+	<classpathentry kind="src" path="Yamm01/src"/>
+	<classpathentry kind="lib" path="FirstServletProject/FirstServletProject/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="vigneshData/WebContent/WEB-INF/lib/mysql-connector-java-3.1.14-bin.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_79"/>
+	<classpathentry kind="output" path="vigneshData/build/classes"/>
+</classpath>

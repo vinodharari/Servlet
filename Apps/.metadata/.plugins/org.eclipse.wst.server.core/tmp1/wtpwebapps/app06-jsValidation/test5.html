@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="calci">
+	Number 1: <input type="text" name="num1" /> </br>
+	Number 2: <input type="text" name="num2" /> </br>
+	Action
+	<input type="radio" name="actionType" value="add" /> Add &nbsp;
+	<input type="radio" name="actionType" value="sub" /> Subtraction &nbsp;
+	<input type="radio" name="actionType" value="multi" /> Multiplication &nbsp;
+	<input type="radio" name="actionType" value="div" /> Division &nbsp;
+	<input type="submit" value="submit" onclick="return calci()" />
+	</form>
+	<script>
+		function calci(){
+			var f1=document.forms[0];
+			var n1=f1.num1;
+			if(n1.value.length == 0){
+				alert("Pls enter number1");
+				n1.focus();
+				return false;
+			}
+			var n2=f1.num2;
+			if(n2.value.length == 0){
+				alert("Pls enter number2");
+				n2.focus();
+				return false;
+			}
+			var at=f1.actionType;
+			var flag=true;
+			for(i=0; i<at.length; i++){
+				if(at[i].checked){
+					flag=false;
+					break;
+				}
+			}
+			if(flag){
+				alert("select any Action Type");
+				at[0].focus();
+				return false;
+			}
+		}
+	</script>
+</body>
+</html>

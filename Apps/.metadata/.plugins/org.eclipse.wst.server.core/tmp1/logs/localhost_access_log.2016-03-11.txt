@@ -1,0 +1,13 @@
+127.0.0.1 - - [11/Mar/2016:16:50:30 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [11/Mar/2016:16:50:41 +0530] "POST /app04-HTML-get-post/Servlet1 HTTP/1.1" 405 1067
+0:0:0:0:0:0:0:1 - - [11/Mar/2016:16:51:36 +0530] "POST /app04-HTML-get-post/Servlet1 HTTP/1.1" 405 1067
+127.0.0.1 - - [11/Mar/2016:16:51:52 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [11/Mar/2016:16:51:58 +0530] "POST /app04-HTML-get-post/Servlet1 HTTP/1.1" 405 1067
+0:0:0:0:0:0:0:1 - - [11/Mar/2016:16:52:31 +0530] "GET /app04-HTML-get-post/Servlet1?param1=hi&param2=hello&submit=Submit+Query HTTP/1.1" 200 55
+0:0:0:0:0:0:0:1 - - [11/Mar/2016:16:53:38 +0530] "GET /app04-HTML-get-post/Servlet1?param1=abc&param2=xyz HTTP/1.1" 200 54
+0:0:0:0:0:0:0:1 - - [11/Mar/2016:16:58:09 +0530] "GET /app03-simpleHTML/test2.html HTTP/1.1" 200 342
+0:0:0:0:0:0:0:1 - - [11/Mar/2016:16:58:10 +0530] "GET /app03-simpleHTML/hello HTTP/1.1" 200 84
+0:0:0:0:0:0:0:1 - - [11/Mar/2016:17:00:05 +0530] "GET /app03-simpleHTML/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Mar/2016:17:00:08 +0530] "GET /app03-simpleHTML/login?userName=gm&password=cgh HTTP/1.1" 405 1065
+127.0.0.1 - - [11/Mar/2016:17:00:48 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [11/Mar/2016:17:00:55 +0530] "GET /app03-simpleHTML/login?userName=vinod&password=jain HTTP/1.1" 405 1065

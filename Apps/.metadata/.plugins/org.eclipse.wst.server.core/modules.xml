@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:app16-Filters" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app14-ContainerScopes" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app02-helloWorld" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app18-DBInteraction" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Proto" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app13-Sessions" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app03-simpleHTML" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app2-helloWorld" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:SimpleServletProject" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app21-Security" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app4-HTML-get-post" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app13-Sessions_Hidden_form" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app3" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app2" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app3-simpleHTML" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app5" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app17-Browser" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app4" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app6" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app8" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:TutorialsServlet" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app04-HTML-get-post" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:myApe1-loginDb" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app09-lifeCycle" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app08-queryString" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app6-jsValidation" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app20-Wrappers" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app8-diferentParameters" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app11-reqDispatcher" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app13" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:vigneshData" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app5-formRegistration" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app11" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app12" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app4-HTML" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app08-diferentParameters" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app22-Dynamic3.0" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app06-jsValidation" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app13-Sessions_URLencoding" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:javaTpoint" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Yamm01" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:app1" serverId="Tomcat v6.0 Server at localhost"/>
+</modules>

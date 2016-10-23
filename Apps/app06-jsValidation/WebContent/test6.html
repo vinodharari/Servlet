@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="reg" method="post">
+	First Name:
+	<input type="text" name="firstName"/></br>
+	Lover Name:
+	<input type="text" name="lastName"/></br>
+	Skills:
+	<input type="checkbox" name="skills" value="perl" onclick="checkRemaining()">Perl&nbsp;&nbsp;
+	<input type="checkbox" name="skills" value="unix" onclick="checkRemaining()">Unix&nbsp;&nbsp;
+	<input type="checkbox" name="skills" value="java" onclick="checkRemaining()">Java&nbsp;&nbsp;
+	<input type="checkbox" name="sa" onclick="selectAll()">Select All<br>
+	<input type="submit" value="Register" onclick="return validate()"/> </br>
+	</form>
+	<script>
+	function selectAll(){
+		var f1=document.forms[0];
+		var s1=f1.skill;
+		var s2=f1.sa;
+		if(s2.checked){
+			for(var i=0; i<s1.length;i++){
+				s1[i].checked=true;
+			}
+		}
+		else{
+			for(var i=0; i<s1.length;i++){
+				s1[i].checked=false;
+			}
+		}
+	}
+	
+	function validate(){
+		var myForm = document.forms[0];
+		var firstN = myForm.firstName;
+		if (firstN.value.length==0){
+			alert("Pls enter FirstName");
+			firstN.focus();
+			return false;
+		}
+		var lastN = myForm.lastName;
+		if (lastN.value.length==0){
+			alert("Pls enter last Name);
+			lastN.focus();
+			return false;
+		}
+		
+		var s1 = myForm.skills;
+		var flag=true;
+		for(var i=0; i<s1.length; i++){
+			if(s1[i].checked){
+				flag=false;
+				break;
+			}
+		}
+		if(flag){
+			alert("Please select skills");
+			s1[0].focus();
+			return false;
+			}
+		}
+	
+	function checkRemaining(){
+		var f1=document.forms[0];
+		var s1=f1.skills;
+		var s2=f1.sa;
+		var flag=true;
+		for(var i=0; i<s1.length;i++){
+			if(!s1[i].checked){
+				flag=false;
+				break;
+			}
+		}
+		s2.checked=false;
+	}
+	</script>
+</body>
+</html>

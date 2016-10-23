@@ -1,0 +1,25 @@
+package com.vinod;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+/**
+ * Servlet implementation class Servlet4
+ */
+public class Servlet7 extends HttpServlet {
+	protected void doGet(HttpServletRequest r1, HttpServletResponse r2) throws ServletException, IOException {
+		HttpSession s1=r1.getSession();
+		Person p1=new Person();
+		s1.setAttribute("attr1", p1);
+		System.out.println("......");
+		s1.removeAttribute("attr1");
+		PrintWriter out=r2.getWriter();
+		out.println("check in the log file");
+	}
+}

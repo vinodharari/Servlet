@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  
+  <servlet>
+    <servlet-name>HrHomeServlet</servlet-name>
+    <servlet-class>com.lara.HrHomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HrHomeServlet</servlet-name>
+    <url-pattern>/HrHomeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SalesHomeServlet</servlet-name>
+    <servlet-class>com.lara.SalesHomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SalesHomeServlet</servlet-name>
+    <url-pattern>/SalesHomeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>MarketingServlet</servlet-name>
+    <servlet-class>com.lara.MarketingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MarketingServlet</servlet-name>
+    <url-pattern>/MarketingServlet</url-pattern>
+  </servlet-mapping>
+ 
+ <security-constraint>
+ 	<web-resource-collection>
+ 		<web-resource-name>hr</web-resource-name>
+ 		<url-pattern>/HrHomeServlet</url-pattern>
+ 	</web-resource-collection>
+ 	<auth-constraint>
+ 		<role-name>hr</role-name>
+ 	</auth-constraint>
+ </security-constraint>
+ 
+  <security-constraint>
+ 	<web-resource-collection>
+ 		<web-resource-name>marketing</web-resource-name>
+ 		<url-pattern>/MarketingServlet</url-pattern>
+ 	</web-resource-collection>
+ 	<auth-constraint>
+ 		<role-name>marketing</role-name>
+ 	</auth-constraint>
+ </security-constraint>
+ 
+  <security-constraint>
+ 	<web-resource-collection>
+ 		<web-resource-name>SalesHome</web-resource-name>
+ 		<url-pattern>/SalesHomeServlet</url-pattern>
+ 	</web-resource-collection>
+ 	<auth-constraint>
+ 		<role-name>sales</role-name>
+ 	</auth-constraint>
+ </security-constraint>
+ 
+  <!--
+ <login-config>
+ 	<auth-method>BASIC</auth-method>
+ </login-config>
+ 
+  
+  <login-config>
+ 	<auth-method>FORM</auth-method>
+ 	<form-login-config>
+ 		<form-login-page>/login.html</form-login-page>
+ 		<form-error-page>/error.hyml</form-error-page>
+ 	</form-login-config>
+ </login-config>  -->
+ 
+ 
+ <login-config>
+ 	<auth-method>DIGEST</auth-method>
+ </login-config>  
+ 
+</web-app>

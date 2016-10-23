@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Ajax Sample</title>
+</head>
+<body>
+	some content<br>
+	some content<br>
+	<div id="p1">Initial content</div>
+	some content<br>
+	some content<br>
+	<a href="#" onclick="changeDiv()">Change</a>
+	
+	<script>
+	var httpRequest;
+	function changeDiv() {
+		try {
+			httpRequest=new XMLHttpRequest();
+		}
+		catch(e) {
+			try {
+				httpRequest=new ActiveXObject("Msxml2.XMLHTTP");
+			}
+			catch(e) {
+				try {
+					httpRequest=new ActiveXObject("Microsoft.XMLHTTP");
+				}
+				catch(e) {
+					alert("Your Browser is not supportibg AJAX")
+				}
+			}
+		}
+		httpRequest.open("get","reg.html",true);
+		httpRequest.onreadystatechange=handleResponse;
+		httpRequest.send();
+	}
+	function handleResponse(){
+		if(httpRequest.readyState==4 && httpRequest.status==200) {
+			var response=httpRequest.responseText;
+			if(response) {
+				document.getElementById("p1").innerHTML=response;
+			}
+		}
+	}
+	</script>
+
+</body>
+</html>
